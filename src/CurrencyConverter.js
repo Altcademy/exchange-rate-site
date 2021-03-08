@@ -30,7 +30,7 @@ class CurrencyConverter extends React.Component {
 
   getRate = (base, quote) => {
     this.setState({ loading: true });
-    fetch(`https://exchangeratesapi.io/latest?base=${base}&symbols=${quote}`)
+    fetch(`https://api.exchangeratesapi.io/latest?base=${base}&symbols=${quote}`)
       .then(checkStatus)
       .then(json)
       .then(data => {
@@ -54,7 +54,7 @@ class CurrencyConverter extends React.Component {
     const endDate = new Date().toISOString().split('T')[0];
     const startDate = new Date((new Date).getTime() - (30 * 24 * 60 * 60 * 1000)).toISOString().split('T')[0];
 
-    fetch(`https://exchangeratesapi.io/history?start_at=${startDate}&end_at=${endDate}&base=${base}&symbols=${quote}`)
+    fetch(`https://api.exchangeratesapi.io/history?start_at=${startDate}&end_at=${endDate}&base=${base}&symbols=${quote}`)
       .then(checkStatus)
       .then(json)
       .then(data => {
