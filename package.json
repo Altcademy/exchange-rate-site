@@ -1,16 +1,20 @@
 {
   "name": "exchange-rate-site",
   "version": "0.1.0",
+  "homepage": "https://altcademy.github.io/exchange-rate-site/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
     "chart.js": "^2.8.0",
+    "gh-pages": "^4.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

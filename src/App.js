@@ -9,7 +9,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/exchange-rate-site">
       <Layout>
         <Switch>
           <Route path="/" exact component={Home} />
