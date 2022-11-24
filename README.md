@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `yarn deploy`
+
+Deploy to github repo's gh-pages branch, app is hosted on github pages.
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
