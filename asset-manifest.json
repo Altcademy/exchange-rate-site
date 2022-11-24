@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/exchange-rate-site/static/css/main.36497136.chunk.css",
+    "main.js": "/exchange-rate-site/static/js/main.0052306e.chunk.js",
+    "main.js.map": "/exchange-rate-site/static/js/main.0052306e.chunk.js.map",
+    "runtime~main.js": "/exchange-rate-site/static/js/runtime~main.aabd9a97.js",
+    "runtime~main.js.map": "/exchange-rate-site/static/js/runtime~main.aabd9a97.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/exchange-rate-site/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.04074917.chunk.js": "/exchange-rate-site/static/js/2.04074917.chunk.js",
+    "static/js/2.04074917.chunk.js.map": "/exchange-rate-site/static/js/2.04074917.chunk.js.map",
+    "index.html": "/exchange-rate-site/index.html",
+    "precache-manifest.e833bb3dc69004788f47ff1c4f899d4b.js": "/exchange-rate-site/precache-manifest.e833bb3dc69004788f47ff1c4f899d4b.js",
+    "service-worker.js": "/exchange-rate-site/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/exchange-rate-site/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.36497136.chunk.css.map": "/exchange-rate-site/static/css/main.36497136.chunk.css.map"
+  }
+}
