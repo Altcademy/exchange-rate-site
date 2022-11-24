@@ -23,7 +23,7 @@ class CurrencyConverter extends React.Component {
 
   getRate = (base, quote) => {
     this.setState({ loading: true });
-    fetch(`https://alt-exchange-rate.herokuapp.com/latest?base=${base}&symbols=${quote}`)
+    fetch(`https://api.frankfurter.app/latest?from=${base}&to=${quote}`)
       .then(checkStatus)
       .then(json)
       .then(data => {
